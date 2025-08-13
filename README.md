@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# React Tic-Tac-Toe Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A classic Tic-Tac-Toe game built with React, created as part of a web development class project. This project demonstrates core React concepts like components, state management with `useState`, and event handling.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Live Demo
 
-### `npm start`
+You can play the live version of the game here:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**[Play the Game!](https://tic-tac-toe-assig.netlify.app/)**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+*(Replace the link above with your actual Netlify deployment link.)*
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ Features
 
-### `npm run build`
+* **Interactive Gameplay:** Classic 3x3 Tic-Tac-Toe board.
+* **Winner Detection:** The game automatically declares a winner or a draw.
+* **Move History:** "Time travel" to see previous moves and the state of the game at each step.
+* **Game Status:** Clearly displays whose turn is next (`X` or `O`).
+* **Reset Button:** Easily start a new game at any time.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* **[React](https://react.dev/)**: A JavaScript library for building user interfaces.
+* **[JavaScript (ES6+)](https://www.javascript.com/)**: The programming language used.
+* **[CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)**: For custom styling and layout.
+* **[Netlify](https://www.netlify.com/)**: For deployment and hosting.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ⚙️ How to Run Locally
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To get a local copy up and running, follow these simple steps.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You need to have Node.js and npm installed on your machine.
+* [Node.js](https://nodejs.org/)
 
-## Learn More
+### Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1.  **Clone the repository:**
+    ```sh
+    git clone [https://github.com/Kunal-sonawanee/tic-tac-toe.git](https://github.com/Kunal-sonawanee/tic-tac-toe.git)
+    ```
+2.  **Navigate to the project directory:**
+    ```sh
+    cd tic-tac-toe
+    ```
+3.  **Install NPM packages:**
+    ```sh
+    npm install
+    ```
+4.  **Start the development server:**
+    ```sh
+    npm start
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The application will open automatically in your browser at `http://localhost:3000`.
