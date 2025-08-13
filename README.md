@@ -10,8 +10,6 @@ You can play the live version of the game here:
 
 **[Play the Game!](https://tic-tac-toe-assig.netlify.app/)**
 
-*(Replace the link above with your actual Netlify deployment link.)*
-
 ---
 
 ## ✨ Features
